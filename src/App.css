@@ -1,0 +1,54 @@
+.app {
+    background-image: url("../images/pexels-perfect-lens-12162236.jpg");
+    min-height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+
+}
+
+.form {
+    background-color: #062226;
+    color: wheat;
+    width: 100%;
+    max-width: 30em;
+    padding: 2em 1.5em 2.5em;
+    border-radius: 1em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:hover {
+        filter: brightness(2.1);
+        color: #ecbf6c;
+    }
+    
+}
+
+.form__content {
+    text-align: center;
+    font-weight: 500;
+    
+    margin-bottom: .7em;
+}
+.form__input, .form__button {
+    border-radius: 1em;
+    height: 2.5em;
+    font-size: 1em;
+    margin: .3em;
+}
+.form__input {
+    padding: 1em;
+}
+
+
