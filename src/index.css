@@ -9,7 +9,14 @@
 html {
 
     font-family: "Mukta", sans-serif;
-    background-color: #05292e;
+    background-color: #05292e; 
+    background-image: url('../public/img/EO5OatUXkAE0qae.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    
+    
+    
 
 }
 

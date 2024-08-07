@@ -28,7 +28,7 @@ function App() {
 
   return (
 
-    <div >
+    <div className='background'>
       <div className='form'>
         <div className='form__content'>
           <h1>Rick and Morty</h1>
